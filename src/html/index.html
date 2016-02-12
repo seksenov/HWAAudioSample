@@ -2,13 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <Title>Hosted App Starter</title>
+    <Title>HWA Audio Sample</title>
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    <h1>Title Goes Here!</h1>
-    <div id="content"></div>
+    <h1>HWA Audio Sample</h1>
+    <div id="content">
+      <p>This demo shows how to integrate the HTML 5 audio element in your remote web app with the System Media Transport Controls (SMTC) while the site is running as a Hosted Web App on Windows 10. Just add the right event handlers on the element and listen for the play, pause and end events from SMTC. The code to checkout is contained in the main.js script file. </p>
+
+      <div id="videoContainer" >
+        <audio id="mediaAudio" msAudioCategory="BackgroundCapableMedia" src="img/Podington_Bear_-_Golden_Hour.mp3" controls></audio>
+        
+      </div>
+     
+    </div>
     <script src="js/main.js"></script>
+    <script src="js/appBarColor.js"></script>
     <script src="bundles/bundle.js"></script>
   </body>
 </html>
